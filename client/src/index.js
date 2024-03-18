@@ -3,12 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import {BrowserRouter} from 'react-router-dom';
+import { ContractProvider } from './contexts/ContractContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <ContractProvider>
   <BrowserRouter>
     <App />
   </BrowserRouter>
+  </ContractProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function
