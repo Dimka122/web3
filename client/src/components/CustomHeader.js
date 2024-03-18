@@ -10,7 +10,7 @@ export default function CustomHeader() {
         }}
         >
   
-        <Link to={"/"}><h1 style={{color: 'white'}}>Twitter dApp</h1></Link>
+        <Link to={"/"}><h1 style={{color: 'white'}}>Message dApp</h1></Link>
         <Link to={"/profile"}>
           <img style={{
             width: '6vh', 
