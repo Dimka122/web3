@@ -1,0 +1,1 @@
+export const contract_address = "адрес вашего смарт-контракта";
