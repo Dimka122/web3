@@ -1,0 +1,38 @@
+.Mess {
+    width: calc(100%-2vh);
+    height: auto;
+    padding: 2vh;
+    padding-top: 0.5vh;
+    border-color: var(--primary-color);
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+h3, h2 {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.likes {
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: row;
+    gap: 1vh;
+    align-items: center;
+}
+
+.like {
+    width: 4vh;
+    height: 4vh;
+}
+
+.twitt-pic {
+    width: 6vh;
+    height: 6vh;
+}

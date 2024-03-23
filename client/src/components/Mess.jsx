@@ -1,6 +1,6 @@
 import React from 'react'
-import theme from '../constants/colors'
-import './Mess.css';
+import theme from '../constansts/color'
+import "./Mess.css";
 import { Link } from 'react-router-dom';
 import { useContract } from '../contexts/ContractContext';
 
@@ -22,7 +22,7 @@ export default function Mess({msg}) {
                     </div>
                 </div>
             </Link>
-            <h3 style={{marginTop: '2vh'}}>{twit.text}</h3>
+            <h3 style={{marginTop: '2vh'}}>{msg.text}</h3>
             <div className="likes">
                 <img src={process.env.PUBLIC_URL+'/like.png'} className='like'/>
                 <h3>{msg.likes.toString()}</h3>

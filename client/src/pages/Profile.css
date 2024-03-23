@@ -1,0 +1,82 @@
+.avatar {
+    height: 30vh;
+    width: 30vh;
+    border-radius: 3vh;
+}
+
+.user-info {
+    height: 30vh;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.edit-btn {
+    cursor: pointer;
+    margin-bottom: 5vh;
+    min-width: 20vh;
+    width: auto;
+    max-width: 30vh;
+    height: 5vh;
+    color: white;
+    font-size: 1.2rem;
+    background-color: var(--primary-color);
+    border-radius: 2vh;
+    border-style: none;
+}
+
+.registration {
+    display: flex;
+    align-items: center;
+    gap: 1.5vh;
+}
+
+.sidebar {
+    height: auto;
+    width: 30vh; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: left;
+}
+
+input {
+    padding-inline: 5px;
+    outline: none;
+    height: 5vh;
+    border-style: inset;
+    border-color: var(--primary-color);
+    border-radius: 2vh;
+}
+
+.add-twitt {
+    padding: 1vh;
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: black;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.input_twitt {
+    outline: none;
+    border-style: none;
+    width: 90%;
+    word-wrap: break-word;
+    resize: none;
+}
+
+.add-btn {
+    place-self: center;
+    cursor: pointer;
+    width: 15vh;
+    height: 5vh;
+    color: white;
+    font-size: 1.2rem;
+    background-color: var(--primary-color);
+    border-radius: 1vh;
+    border-style: none;
+}
