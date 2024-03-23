@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import theme from "../constansts/color";
+
 export default function CustomHeader() {
     return (
       <div style={{

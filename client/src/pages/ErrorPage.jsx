@@ -1,3 +1,7 @@
+import {Link} from 'react-router-dom';
+
+export default function ErrorPage(){
+
 return (
     <div className='App-header'>
       <h1 style={{textAlign: 'center'}}>Oops...<br/>Page not found</h1>
@@ -9,3 +13,4 @@ return (
         color: 'white'}}>Go home</Link>
     </div>
 )
+      }   

@@ -1,3 +1,9 @@
+import CustomHeader from "./components/CustomHeader";
+import Home from "./pages/Home";
+import Profile from "./pages/Profile";
+import User from "./pages/User";
+import ErrorPage from "./pages/ErrorPage";
+import { Routes,Route } from "react-router-dom";
 
 
 function App() {
@@ -14,3 +20,4 @@ function App() {
     </div>
   );
 }
+export default App;

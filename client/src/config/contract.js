@@ -1,1 +1,1 @@
-export const contract_address = "адрес вашего смарт-контракта";
+export const contract_address = "0xB3Aed85D13fFD00951D1F4486C221B6Da09CB5A3";
